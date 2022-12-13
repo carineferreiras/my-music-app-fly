@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fly</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- link JS here -->
+    <script src="index.js" defer></script>
+    <!-- Font family here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+    <!-- Icons here -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/social-likes/3.1.3/social-likes.min.js"/>
+</head>
+
+<body>
+    <img id="logo" src="file:///Users/carineferreiradasilva/Development/Code/phase1/my-project-phase1/fLy.png" alt="Logo">
+    <div class="flex-container-search" id="app-flex">
+        <div>Home</div>
+
+    </div>
+    <section id="filters-container">
+        <form id="search-form">
+            <input id="search" type="text" placeholder="Search an artist (e.g. Eminem)"/> 
+            <button id="search-button">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+    </section>
+    <section id="search-result"></section>
+        <select name="name-filter" id="name-filter">
+            <option value="default">Sort</option>
+            <option value="name-ascending">A-Z</option>
+            <option value="name-descending">Z-A</option>
+        </select> 
+
+    <footer>
+        <button class="likebtn">
+            <span id="icon"><i class="fa-sharp fa-solid fa-heart"></i></span>
+            <span id="count"></span> Like
+        </button>
+        <p>Copyright © Carine Ferreira da Silva 2022</p>
+    </footer>
+</body>
+</html>

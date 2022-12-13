@@ -1,0 +1,22 @@
+{
+    "Search": [
+        {
+        "id":"app-flex",
+       "title":"container-search"
+        }
+    ],
+
+    "Playlist":[
+        {  
+        "id":"playlist",
+        "title":"playlist-artist"
+        }
+    ],
+
+    "Home":[
+        {
+        "id":"home",
+       "title":"main-page"
+        }
+    ]
+}
