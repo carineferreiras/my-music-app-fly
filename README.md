@@ -1,4 +1,4 @@
-# my-project-phase1
+# my-project-FLY Music App 
 FLY Music App 
 
 Welcome to the repository for FLY Music App , a simple and easy-to-use music search application. This app allows users to search for their favorite songs, artists, and albums, and provides them with a list of results from popular music streaming platforms.
