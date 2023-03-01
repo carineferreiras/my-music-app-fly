@@ -1,35 +1,81 @@
-head {
-    display: none;
-    color: white;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    font-family: 'Anton', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: block;
-    margin: 8px;
-    text-align: center;
-    background:black;
-    }
+body {
+  font-family: 'Syncopate', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #222;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  padding: 8px 12px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#search::placeholder {
+  color: #ddd;
+}
+
+#search-button {
+  padding: 8px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#name-filter {
+  padding: 8px;
+  border: none
+
 
 #logo 
 .flex-container-search
 
-#app-flex {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background: black;
-}
-
-
-div {
-color:white;
-display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
