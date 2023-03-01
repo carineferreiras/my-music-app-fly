@@ -19,32 +19,36 @@
 </head>
 
 <body>
+  <header>
     <img id="logo" src="./fLy.png" alt="Logo">
-    <div class="flex-container-search" id="app-flex">
-        <div>Home</div>
-
+      <div class="flex-container-search" id="app-flex">
+    <nav>
+      <ul>
+        <li>Home</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="search-bar">
+      <form id="search-form">
+        <input id="search" type="text" placeholder="Search an artist (e.g. Eminem)">
+        <button id="search-button"><i class="fas fa-search"></i></button>
+      </form>
+      <select name="name-filter" id="name-filter">
+        <option value="default">Sort</option>
+        <option value="name-ascending">A-Z</option>
+        <option value="name-descending">Z-A</option>
+      </select>
     </div>
-    <section id="filters-container">
-        <form id="search-form">
-            <input id="search" type="text" placeholder="Search an artist (e.g. Eminem)"/> 
-            <button id="search-button">
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-            </button>
-        </form>
-    </section>
-    <section id="search-result"></section>
-        <select name="name-filter" id="name-filter">
-            <option value="default">Sort</option>
-            <option value="name-ascending">A-Z</option>
-            <option value="name-descending">Z-A</option>
-        </select> 
-
-    <footer>
-        <button class="likebtn">
-            <span id="icon"><i class="fa-sharp fa-solid fa-heart"></i></span>
-            <span id="count"></span> Like
-        </button>
-        <p>Copyright © Carine Ferreira da Silva 2022</p>
-    </footer>
+    <div id="search-result"></div>
+  </main>
+  <footer>
+    <button class="like-btn">
+      <span id="icon"><i class="far fa-heart"></i></span>
+      <span id="count">0</span> Likes
+    </button>
+    <p>&copy; Carine Ferreira da Silva 2022</p>
+  </footer>
+  <script src="index.js"></script>
 </body>
 </html>
